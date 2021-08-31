@@ -1,7 +1,10 @@
 {
   "name": "hello-gigi",
-  "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "version": "0.0.5",
+  "description": "仅供测试，别下载",
+  "main": "packages/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -12,7 +15,7 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-babel": "^4.5.13",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
