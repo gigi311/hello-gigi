@@ -2,7 +2,7 @@
   "name": "hello-gigi",
   "private": false,
   "license": "MIT",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "仅供测试，别下载",
   "main": "lib/demog.umd.min.js",
   "scripts": {
@@ -14,6 +14,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.5",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

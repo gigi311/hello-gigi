@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <span class="iconfont icon-iframe" style="font-size: 18px"></span>
+    <demo-gigi></demo-gigi>
+    <button @click="src='//sina.com.cn'">change sina</button>
+    <frame-panel :src="src" fstyle="height:500px;"></frame-panel>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data(){
+    return {
+      src:'http://erp.jd.com?timeout=2000',
+    }
   }
 }
 </script>
