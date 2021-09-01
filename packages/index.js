@@ -1,6 +1,8 @@
 
+import './css/index.css'
 // 导入颜色选择器组件
 import demoGigi from "./demo-gigi";
+
  
 // 存储组件列表
 const components = [demoGigi];
