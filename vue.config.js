@@ -1,5 +1,6 @@
 
 module.exports = {
+    publicPath: process.env.NODE_ENV === 'production' ? '/hello-gigi/' : '/',
     // 修改 src 为 examples
     pages: {
         index: {
